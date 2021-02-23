@@ -16,3 +16,4 @@ fs.writeFileSync(`${dist}/package.json`, JSON.stringify(pkg, null, 2), "utf8");
 shell.rm("-rf", `${dist}/_res/*`);
 shell.mkdir("-p", `${dist}/_res/`);
 shell.cp("-R", `${src}/_res/*`, `${dist}/_res/`);
+shell.cp(`${src}/README.md`, `${dist}/README.md`);
