@@ -1,20 +1,32 @@
 # Synchronet Dockerized
 
 This is meant to be run from a unix-like (bash) environment.
-
 This package will use `~/sbbs` as the base for data/configuration.
 
-## IN PROGRESS
+## WORK IN PROGRESS
 
-This is a work in progress, I've manually published to docker up for `bbsio/synchronet` for the container, as well as have manually published version 0.1.0 to npm for `@bbs/synchronet` npm package.
+**WARNING**: This is a work in progress.
 
-## Installation
+#### References
+
+- [Synchronet Wiki](http://wiki.synchro.net/)
+- [Synchronet on Docker Hub](https://hub.docker.com/repository/docker/bbsio/synchronet)
+
+## Prerequisite Software
 
 You must have the following installed in order to run this application.
 
 - Docker
 - Docker Compose
 - [Node.js](https://nodejs.org/en/) _(14.x)_
+
+### Windows
+
+If you are using Windows, you should install WSL2, and use Docker
+Desktop configured to use WSL2, and it would be best to run this
+from a WSL2 linux environment such as Ubuntu 20.04.
+
+## Installation
 
 The container name will be `sbbs` and the image will be `bbsio/synchronet:latest`
 
@@ -23,20 +35,10 @@ npm i -g @bbs/synchronet
 synchronet install
 ```
 
-### Windows
-
-If you are using Windows, you should install WSL2, and use Docker
-Desktop configured to use WSL2, and it would be best to run this
-from a WSL2 linux environment such as Ubuntu 20.04.
-
 ### Mac
 
 If you are using mac, you should modify the dockerfile to use a
 volume container in docker (instructions out of scope).
-
-### docker-compose
-
-If you wish to use `docker-compose` refer to [docker-compose.md](./docker-compose.md)
 
 ## Management Commands
 
@@ -71,8 +73,12 @@ Options:
 
 ## Directories
 
-NOTE: Volume mounted directories will be owned by root as a default. In order to edit/update these files, you should run `synchronet access` with the `sbbs` container running.
+NOTE: Volume mounted directories will be owned by root as a default. In order
+to edit/update these files, you should run `synchronet access` with the `sbbs`
+container running.
 
 ## Advanced Setup
 
-If you wish to use a directory other than `~/sbbs` for your volume/directory mounts, set an `SBBSDIR` environment variable to your desired location, for example, if you wanted to use `/sbbs` on a deployed server, you could do so.
+If you wish to use a directory other than `~/sbbs` for your volume/directory
+mounts, set an `SBBSDIR` environment variable to your desired location, for
+example, if you wanted to use `/sbbs` on a deployed server, you could do so.

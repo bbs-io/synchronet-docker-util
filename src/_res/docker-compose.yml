@@ -37,7 +37,7 @@ services:
       - ~/sbbs/nodes:/sbbs/nodes
       - ~/sbbs/backup:/backup
     networks:
-      - sbbs
+      - bbs
     ports:
       - 80:80 #http
       - 443:443 #https
@@ -68,5 +68,5 @@ services:
       # - 143:143 #imap
       # - 993:993 #imap+tls
 networks:
-  sbbs:
-    name: sbbs
+  bbs:
+    name: bbs

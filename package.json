@@ -9,6 +9,10 @@
   ],
   "author": "Michael J. Ryan <tracker1@gmail.com>",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbs-io/synchronet-docker-util.git"
+  },
   "bin": {
     "synchronet": "dist/cli.js"
   },
