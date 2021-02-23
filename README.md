@@ -3,7 +3,7 @@
 <span class="badge-github-ci"><a href="https://github.com/bbsio/synchronet-docker-util" title="Check this project on Github"><img src="https://github.com/bbs-io/synchronet-docker-util/actions/workflows/npm-publish-tags.yml/badge.svg" alt="Github CI Status" /></a></span>
 <span class="badge-npmversion"><a href="https://npmjs.org/package/@bbs/synchronet" title="View this project on NPM"><img src="https://img.shields.io/npm/v/@bbs/synchronet.svg" alt="NPM version" /></a></span>
 <span class="badge-npmdownloads"><a href="https://npmjs.org/package/@bbs/synchronet" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/@bbs/synchronet.svg" alt="NPM downloads" /></a></span>
-<img alt="Libraries.io dependency status for latest release, scoped npm package" src="https://img.shields.io/librariesio/release/npm/@bbs/synchronet">
+<span class="badge-npmdownloads"><a href="https://npmjs.org/package/@bbs/synchronet" title="View this project on NPM"><img alt="Libraries.io dependency status for latest release, scoped npm package" src="https://img.shields.io/librariesio/release/npm/@bbs/synchronet"></a></span>
 
 This is meant to be run from a unix-like (bash) environment.
 This package will use `~/sbbs` as the base for data/configuration.
