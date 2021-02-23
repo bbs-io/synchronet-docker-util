@@ -1,5 +1,11 @@
 # Synchronet Dockerized
 
+<span class="badge-github-ci"><a href="https://github.com/bbsio/synchronet-docker.util" title="Check this project on Github"><img src="https://github.com/bbsio/synchronet-docker.util/workflows/Node%20CI/badge.svg" alt="Github CI Status" /></a></span>
+<span class="badge-npmversion"><a href="https://npmjs.org/package/@bbs/synchronet" title="View this project on NPM"><img src="https://img.shields.io/npm/v/@bbs/synchronet.svg" alt="NPM version" /></a></span>
+<span class="badge-npmdownloads"><a href="https://npmjs.org/package/@bbs/synchronet" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/@bbs/synchronet.svg" alt="NPM downloads" /></a></span>
+<span class="badge-daviddm"><a href="https://david-dm.org/bbsio/synchronet-docker.util" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/bbsio/synchronet-docker.util.svg" alt="Dependency Status" /></a></span>
+<span class="badge-daviddmdev"><a href="https://david-dm.org/bbsio/synchronet-docker.util?type=dev" title="View the status of this project's development dependencies on DavidDM"><img src="https://img.shields.io/david/dev/bbsio/synchronet-docker.util.svg" alt="Dev Dependency Status" /></a></span>
+
 This is meant to be run from a unix-like (bash) environment.
 This package will use `~/sbbs` as the base for data/configuration.
 
